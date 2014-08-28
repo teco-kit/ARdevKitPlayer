@@ -1,7 +1,7 @@
 ARdevKitPlayer
 ===============
 
-The player can be used to show an AREL project which can be created with the <a href=https://github.com/Firebusa/ARdevKit>ARdevKitEditor</a>.
+The player can be used to show an AREL project which was created with the <a href=https://github.com/teco-kit/ARdevKit>ARdevKitEditor</a>.
 If the player is started from within the editor you can choose an image or video to test your project with.
 You can also use a virtual camera like <a href=http://download.manycam.com/>ManyCam</a> as source for the player.
 Moreover you can decide to start a debug terminal as well to show you some additional information.
@@ -29,10 +29,10 @@ Install Guide:
 	* QtWebKitd4.dll
 7. Download and install the VisualStudio plugin from <a href="http://download.qt-project.org/official_releases/vsaddin/qt-vs-addin-1.1.11-opensource.exe">here</a>
 8. Download QuaZip from <a href="http://sourceforge.net/projects/quazip/files/latest/download">here</a>
-9. Build Quazip as a dll, exlained as  <a href="http://quazip.sourceforge.net/">here</a> under Building, testing and installing, or <a href="http://www.youtube.com/watch?v=mxlcKmvMK9Q">here</a> for a video howto
-10.Copy the compiled quazip.lib, quazip.dll and quazip.exp to the output folder of the project.
-11.Copy at all header ("*.h) files from [quazip download folder]/quazip to [project folder]\include
-12.copy this files from [qt install folder]/src/3rdparty/zlib to [project folder]\include:
+9. Build Quazip as a dll, exlained as  <a href="http://quazip.sourceforge.net/">here</a> under Building, testing and installing, or <a href="http://www.youtube.com/watch?v=mxlcKmvMK9Q">here</a> for a video howto.
+10. Copy the compiled quazip.lib, quazip.dll and quazip.exp to the output folder of the project.
+11. Copy at all header ("*.h) files from [quazip download folder]/quazip to [project folder]\include
+12. copy this files from [qt install folder]/src/3rdparty/zlib to [project folder]\include:
 	* zconf.h
 	* zlib.h
 
