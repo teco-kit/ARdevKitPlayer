@@ -3,9 +3,9 @@
 
 #include "SceneBase.h"
 
-#include <QtWebKit/QGraphicsWebView>
+#include <QtWebKitWidgets\QGraphicsWebView>
 
-#include <metaioSDK/IARELInterpreterCallback.h>
+#include <metaioSDK\IARELInterpreterCallback.h>
 
 
 namespace metaio

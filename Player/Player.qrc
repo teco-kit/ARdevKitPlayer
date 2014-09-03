@@ -1,4 +1,4 @@
 <RCC>
-    <qresource prefix="TemplateWindow">
+    <qresource prefix="Player">
     </qresource>
 </RCC>

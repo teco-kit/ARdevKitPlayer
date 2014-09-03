@@ -5,25 +5,24 @@
 TEMPLATE = app
 TARGET = Player
 DESTDIR = ../Debug
-QT += core gui network webkit opengl
-CONFIG += qtestlib debug console
-DEFINES += QT_LARGEFILE_SUPPORT QT_DLL QT_OPENGL_LIB QT_NETWORK_LIB QT_WEBKIT_LIB QT_PHONON_LIB
+QT += core network webkit opengl gui
+CONFIG += qtestlib debug
+DEFINES += QT_LARGEFILE_SUPPORT QT_DLL QT_OPENGL_LIB QT_NETWORK_LIB QT_WEBKIT_LIB QT_PHONON_LIB NOMINMAX
 INCLUDEPATH += ./../include \
     ./GeneratedFiles \
     . \
     ./GeneratedFiles/Debug
 LIBS += -L"./../Debug" \
-    -L"./bin" \
+    -L"$(NOINHERIT)" \
     -lmetaioSDKD \
     -lopengl32 \
     -lglu32 \
     -lquazip \
     -lgtestd \
     -lgtest_main-mdd
-PRECOMPILED_HEADER = StdAfx.h
 DEPENDPATH += .
 MOC_DIR += ./GeneratedFiles/debug
 OBJECTS_DIR += debug
 UI_DIR += ./GeneratedFiles
 RCC_DIR += ./GeneratedFiles
-include(DebugPlayer.pri)
+include(Player.pri)

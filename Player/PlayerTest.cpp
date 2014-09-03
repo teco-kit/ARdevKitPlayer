@@ -4,7 +4,7 @@
 #include <windows.h>
 #include <direct.h>
 #include <string>
-#include <QMessageBox>
+#include <QtWidgets\qmessagebox.h>
 
 namespace {
 

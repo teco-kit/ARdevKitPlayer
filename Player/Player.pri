@@ -7,20 +7,23 @@
 message("You are running qmake on a generated .pro file. This may not work!")
 
 
-HEADERS += ./ConnectionControllerTest.h \
-    ./main.h \
-    ./stdafx.h \
-    ./Player.h \
-    ./ARELScene.h \
+HEADERS += ./ARELScene.h \
     ./ConnectionController.h \
+    ./ConnectionControllerTest.h \
     ./NativeScene.h \
-    ./SceneBase.h
+    ./Player.h \
+    ./SceneBase.h \
+    ./stdafx.h \
+    ./TestMain.h
 SOURCES += ./ARELScene.cpp \
     ./ConnectionController.cpp \
+    ./ConnectionControllerTest.cpp \
     ./main.cpp \
     ./NativeScene.cpp \
     ./Player.cpp \
+    ./PlayerTest.cpp \
     ./SceneBase.cpp \
-    ./stdafx.cpp
+    ./stdafx.cpp \
+    ./TestMain.cpp
 FORMS += ./Player.ui
 RESOURCES += Player.qrc

@@ -3,8 +3,8 @@
 
 #include <fstream>
 
-#include <QtGui/QGraphicsScene>
-#include <QStatusBar>
+#include <QtWidgets\QGraphicsScene>
+#include <QtWidgets\qstatusbar.h>
 
 #include <metaioSDK/IMetaioSDKCallback.h>
 #include <metaioSDK/IMetaioSDKWin32.h>

@@ -2,8 +2,8 @@
 
 #include "ARELScene.h"
 
-#include <metaioSDK/IARELInterpreter.h>
-#include <QMessageBox>
+#include <metaioSDK\IARELInterpreter.h>
+#include <QtWidgets\qmessagebox.h>
 #include <QDebug>
 
 

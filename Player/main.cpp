@@ -3,36 +3,9 @@
 
 #include "shlwapi.h"
 
-#include <QtGui/QApplication>
+#include <QtWidgets/QApplication>
 #include <iostream>
 #include <stdio.h>
-
-/// <summary>
-/// Implements a new message handler for the qDebug() call.
-/// </summary>
-/// <param name="type">The type of the message</param>
-/// <param name="msg">The MSG, as string</param>
-void myMessageOutput(QtMsgType type, const char * msg)
-{
-	switch(type)
-	{
-		case QtDebugMsg:
-			fprintf(stdout,"Debug: %s\n", msg);
-			break;
-		
-		case QtWarningMsg:
-			fprintf(stdout,"Warning: %s\n", msg);
-			break;
-
-		case QtCriticalMsg:
-			fprintf(stdout,"Critical: %s\n", msg);
-			break;
-
-		case QtFatalMsg:
-			fprintf(stdout,"Fatal: %s\n", msg);
-			break;
-	}
-}
 
 /// <summary>
 /// Main.
@@ -43,9 +16,6 @@ void myMessageOutput(QtMsgType type, const char * msg)
 /// <returns>the exit code of the application</returns>
 int main(int argc, char *argv[])
 {
-	// Set qDebug output to std
-	qInstallMsgHandler(myMessageOutput);
-
 	// Get resolution
 	std::string res = "Resolution: ";
 	int i = 1;

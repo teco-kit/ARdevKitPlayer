@@ -4,7 +4,7 @@
 #include "ui_Player.h"
 #include "SceneBase.h"
 
-#include <QtGui/QMainWindow>
+#include <QtWidgets\QMainWindow>
 
 // TODO: Decide whether you want to use the SDK via native code (leave the following line) or want
 //       to use AREL (our cross-platform JavaScript bridge; code can even be exported from Metaio

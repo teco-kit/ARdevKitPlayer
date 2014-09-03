@@ -11,7 +11,7 @@
 #include <qfile.h>
 #include <qiodevice.h>
 #include <stdio.h>
-#include <quazip.h>
+#include "quazip.h"
 #include <qdir.h>
 #include "JlCompress.h"
 
